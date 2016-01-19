@@ -1,0 +1,71 @@
+validation:
+  accepted: ":attribute phải được đồng ý."
+  active_url: ":attribute không phải URL hợp lệ."
+  after: ":attribute phải là ngày sau ngày :date."
+  alpha: ":attribute chỉ chứa các chữ cái."
+  alpha_dash: ":attribute chỉ chứa chữ, số và dấu gạch chéo."
+  alpha_num: ":attribute chỉ chứa chữ, số."
+  array: ":attribute phải là 1 mảng."
+  before: ":attribute phải là ngày trước ngày :date."
+  between:
+    numeric: ":attribute phải nằm trong khoảng :min và :max."
+    file: ":attribute phải trong khoảng :min và :max kB."
+    string: ":attribute phải trong khoảng :min và :max ký tự."
+    array: ":attribute phải trong khoảng :min và :max mục."
+  boolean: ":attribute phải là đúng hoặc sai."
+  confirmed: ":attribute xác nhận không trùng hợp."
+  date: ":attribute không phải ngày hợp lệ."
+  date_format: ":attribute không đúng định dạng ngày :other."
+  different: ":attribute và :other phải khác nhau."
+  digits: ":attribute phải gồm :digits số."
+  digits_between: ":attribute phải trong khoảng :min và :max chữ số."
+  email: ":attribute phải là địa chỉ email hợp lệ."
+  exists: "Đã chọn :attribute không hợp lệ."
+  filled: "Trường :attribute phải nhập."
+  image: ":attribute phải là ảnh."
+  in: "Đã chọn :attribute không hợp lệ."
+  integer: ":attribute phải là số."
+  ip: ":attribute phải là địa chỉ IP hợp lệ."
+  json: ":attribute phải là chuỗi JSON hợp lệ."
+  max:
+    numeric: ":attribute phải không lớn hơn :max."
+    file: ":attribute phải không lớn hơn :max kB."
+    string: ":attribute phải không nhiều hơn :max ký tự."
+    array: ":attribute không được nhiều hơn :max mục."
+  mimes: ":attribute phải là tập tin type: :values."
+  min:
+    numeric: ":attribute không được nhỏ hơn :min."
+    file: ":attribute không được nhỏ hơn :min kB."
+    string: ":attribute không được ít hơn :min ký tự."
+    array: ":attribute không được ít hơn :min mục."
+  not_in: "Đã chọn :attribute không hợp lệ."
+  numeric: ":attribute phải là số."
+  regex: "Định dạng :attribute không hợp lệ."
+  required: "Trường :attribute phải nhập."
+  required_if: "Trường :attribute phải nhập khi :other là :value."
+  required_with: "Trường :attribute phải nhập khi có :values."
+  required_with_all: "Trường :attribute phải nhập khi có :values."
+  required_without: "Trường :attribute phải nhập khi không có :values."
+  required_without_all: ":attribute phải nhập khi không có :values."
+  same: ":attribute và :other phải giống nhau."
+  size:
+    numeric: ":attribute phải là :size."
+    file: ":attribute phải là :size kB."
+    string: ":attribute phải là :size ký tự."
+    array: ":attribute phải chứa :size mục."
+  string: ":attribute phải là chuỗi."
+  timezone: ":attribute phải là vùng hợp lệ."
+  unique: ":attribute đã được tạo."
+  url: "Định dạng :attribute không hợp lệ."
+
+  attributes:
+    username: tên đăng nhập
+    password: mật khẩu
+    email: email
+    title: tiêu đề
+    content: nội dung
+    name_singular: tên số ít
+    name_plural: tên số nhiều
+    name: tên
+    description: mô tả
+    tag: chủ đề

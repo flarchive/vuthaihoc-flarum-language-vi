@@ -1,0 +1,29 @@
+{
+    "name": "vuthaihoc/flarum-language-vi",
+    "type": "flarum-extension",
+    "description": "Vietnamese language package for Flarum.",
+    "keywords": ["locale","vietnamese","flarum"],
+    "license": "MIT",
+    "author":{
+        "name": "Vu Thai Hoc",
+        "email": "vuthaihoc.ttud@gmail.com"
+    },
+    "require": {
+        "flarum/core": "^0.1.0-beta.3"
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Tiếng Việt",
+            "icon": {
+                "image": "vn.svg",
+                "backgroundColor": "#00247d",
+                "backgroundSize": "cover",
+                "backgroundPosition": "center"
+            }
+        },
+        "flarum-locale": {
+            "code": "vi",
+            "title": "Việt Nam"
+        }
+    }
+}
